@@ -20,7 +20,7 @@ class Post_Slug {
 			$clean_slug = sanitize_title( $fetus_slug );
 			$data['post_name'] = $clean_slug;
 		}
-    	return $data;
+    		return $data;
 	}
 
 	function slug_words ( $content ) { 
