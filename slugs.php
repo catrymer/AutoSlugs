@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: SLUGS!
-Description: A plugin to create easy to read post slugs for posts that don't have slugs.
+Description: A plugin to create easy to read post slugs for posts that don't have titles.
 Version:     1.0
 Author:      Cat Rymer
 License:     GPL2
