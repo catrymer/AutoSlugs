@@ -8,7 +8,7 @@ License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-class Post_Slug {
+class CR_Post_Slug {
 
 	function __construct() {
 		add_filter( 'wp_insert_post_data', array($this, 'build_slug'), 10, 2 );
@@ -33,4 +33,4 @@ class Post_Slug {
 	
 }
 
-new Post_Slug;
+new CR_Post_Slug;
