@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: SLUGS!
+Plugin Name: Autoslugs
 Description: A plugin to create easy to read post slugs for posts that don't have titles.
 Version:     1.0
 Author:      Cat Rymer
@@ -8,7 +8,7 @@ License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-class CR_Post_Slug {
+class CR_Auto_Slug {
 
 	function __construct() {
 		add_filter( 'wp_insert_post_data', array($this, 'build_slug'), 10, 2 );
@@ -33,4 +33,4 @@ class CR_Post_Slug {
 	
 }
 
-new CR_Post_Slug;
+new CR_Auto_Slug;
